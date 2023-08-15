@@ -1,0 +1,33 @@
+Questions 
+Q1. What are the three categories with the highest cumulative sales?
+A1. By observing the clustered bar chart, we can perceive that...Ans: 
+     1)Office supplies
+     2)Technology
+     3)Furniture
+
+Q2. What are the 4 Sub-categories with the highest cumulative sales?
+A2. By observing the clustered bar chart, we can perceive that
+     1)Phones
+     2)Chairs
+     3)Binders
+     4)Storage
+Q3. What are the 4 ship modes with the highest cumulative sales?
+A3. By observing the clustered bar chart, we can perceive that
+     1)Standard Class
+     2)Second Class
+     3)First Class
+     4)Same Class
+  
+Q4. What is the total sales amount categorized by order date (2019 and 2020)?
+A4. Upon reviewing the stacked area chart, it becomes evident that December accounted for the highest sales, trailed by October and March. Additionally, there is a notable and substantial surge in sales from 2019 to 2020.
+
+Q5. Display the geographical distribution of sales across different states.
+A5. Using a map visualization with bubbles in Power BI, I observed the distribution of sales across various states, with California exhibiting the highest sales.
+
+Q6. What is the distribution of segments with sales? And what conclusion can be drawn from here?
+A6. Through the donut chart, I observed: Consumers are (48%), Corporate is (33%), and Home Office is (19%). Max sales are through Consumers
+
+Q7.What is the distribution of Payment modes with sales? And what conclusion can be drawn from here?
+A7. Through the donut chart, I observed: COD is used by (43%), Online (35%), and Cards (22%). The maximum sales or payment is coming from COD.
+
+
