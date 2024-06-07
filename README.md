@@ -46,4 +46,4 @@ Collectively, these insights not only provide a comprehensive picture of sales t
 DAX QUERY
 AvgDelivery = DATEDIFF('Superstore_Sales_Dataset'[Order Date],'Superstore_Sales_Dataset'[Ship Date],Day)
 
-Did Sales Forecasting for the next 15 days, 1st January to  14th January.
+Did Sales Forecasting for the next 14 days, 1st January to  14th January.
