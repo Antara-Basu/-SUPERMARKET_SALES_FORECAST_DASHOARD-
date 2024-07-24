@@ -35,7 +35,6 @@ This project involves creating a comprehensive Power BI dashboard to analyze sal
 
 ## DAX Query Example
 To calculate the average delivery time, the following DAX query was used:
-DAX
 AvgDelivery = DATEDIFF('Superstore_Sales_Dataset'[Order Date],'Superstore_Sales_Dataset'[Ship Date],Day)
 
 # Temporal Sales Trends
