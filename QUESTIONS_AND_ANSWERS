@@ -6,7 +6,7 @@ A1. By observing the clustered bar chart we can see the
      3)Furniture
 
 Q2. What are the notable trends in total sales amount categorized by order date for 2019 and 2020?
-A3. Upon reviewing the stacked area chart, it becomes evident that December accounted for the highest sales, trailed by October and March. Additionally, there is a notable and substantial surge in sales from 2019 to 2020.
+A2. Upon reviewing the stacked area chart, it becomes evident that December accounted for the highest sales, trailed by October and March. Additionally, there is a notable and substantial surge in sales from 2019 to 2020.
 
 Q3. Display the geographical distribution of sales across different states.
 A3. Using a map visualization with bubbles in Power BI, I observed sales distribution across various states, with California exhibiting the highest sales.
@@ -37,7 +37,7 @@ A8: The top 5 products by sales, identified using a clustered bar chart, are:
 4. GBC Docubind TL300 Binding System
 5. GBC Docubind P400 Electric Binding System
 
-Q9: What are the bottom 5 products by sales?**
+Q9: What are the bottom 5 products by sales?
 A9: The bottom 5 products by sales are:
 1. Wilson Johns Custom Binder Spines and Labels
 2. While You Were Out Pads, 50 per Pads, 4x5 1/4, Green Cycle
