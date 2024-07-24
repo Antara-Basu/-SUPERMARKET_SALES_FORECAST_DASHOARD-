@@ -1,25 +1,55 @@
-Questions 
+# Sales Analysis and Forecasting Dashboard - Q&A
 Q1. What are the three categories with the highest cumulative sales?
-A1. By observing the clustered bar chart, we can perceive that...Ans: 
+A1. By observing the clustered bar chart we can see the 
      1)Office supplies
      2)Technology
      3)Furniture
 
-Q2. What are the 4 Sub-categories with the highest ?
-A2. By observing the clustered bar chart, we can perceive that
-     1)Phones
-     2)Chairs
-     3)Binders
-     4)Storage
+Q2. What are the notable trends in total sales amount categorized by order date for 2019 and 2020?
+A3. Upon reviewing the stacked area chart, it becomes evident that December accounted for the highest sales, trailed by October and March. Additionally, there is a notable and substantial surge in sales from 2019 to 2020.
 
-  
-Q4. What are the notable trends in total sales amount categorized by order date for 2019 and 2020?
-A4. Upon reviewing the stacked area chart, it becomes evident that December accounted for the highest sales, trailed by October and March. Additionally, there is a notable and substantial surge in sales from 2019 to 2020.
+Q3. Display the geographical distribution of sales across different states.
+A3. Using a map visualization with bubbles in Power BI, I observed sales distribution across various states, with California exhibiting the highest sales.
 
-Q5. Display the geographical distribution of sales across different states.
-A5. Using a map visualization with bubbles in Power BI, I observed the distribution of sales across various states, with California exhibiting the highest sales.
+Q4: What key performance indicators (KPIs) are featured in the dashboard?**
+A4: The dashboard features the following KPIs:
+- Total Profit: $175K
+- Total Sales: $1.6M
+- Total Quantity: 22.3K
+- Total Orders: 22K
+- Average Shipping Days: 4 days
 
 
-Q8. What are the TOP 10 ship states contributing most to sales of superstores?
-A8. By observing the clustered bar chart, the top 10 states are California, New York, Texas, Washington, Pennsylvania, Ohio, Illinois, Florida, Michigan, and North Carolina.
+Q5: How is the monthly profit for 2019 and 2020 visualized?
+A5: A stacked area chart shows monthly profit year-over-year (YoY) for 2019 and 2020, highlighting a peak profit of $17K in December 2019.
 
+Q6: Which product subcategory had the highest sales quantity?
+A6: Binders had the highest sales quantity with 3.7K units sold, as shown in the clustered column chart.
+
+Q7: Who are the top 10 customers by profit?
+A7: The top 10 customers by profit are highlighted using a stacked column chart, providing insights into the most profitable customers and potential strategies for customer retention.
+
+Q8: What are the top 5 products by sales?
+A8: The top 5 products by sales, identified using a clustered bar chart, are:
+1. 3D System Cube Printer, 2nd Generation, Magenta
+2. Canon imageCLASS 2200 Advanced Copier
+3. Hewlett Packard Laserjet 3310 Copier
+4. GBC Docubind TL300 Binding System
+5. GBC Docubind P400 Electric Binding System
+
+Q9: What are the bottom 5 products by sales?**
+A9: The bottom 5 products by sales are:
+1. Wilson Johns Custom Binder Spines and Labels
+2. While You Were Out Pads, 50 per Pads, 4x5 1/4, Green Cycle
+3. Elden 100 Glass Desk Accessories
+4. Newell 32
+5. Avery 479
+
+Q10: How does state distribute sales and profit?
+A10: A map visualization shows sales and profit by state, with California leading at 3.35 lakhs in sales and 49K in profit.
+
+Q11: How are regional performances analyzed?
+A11: The dashboard includes filters for regions (Central, South, East, West), allowing users to analyze sales performance across different regions.
+
+Q12: How is sales forecasting implemented in the dashboard?
+A12: Sales forecasting is implemented using historical data and time series analysis to generate sales forecasts for the next 30 days.
