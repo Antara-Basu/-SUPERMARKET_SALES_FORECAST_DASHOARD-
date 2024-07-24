@@ -51,6 +51,7 @@ AvgDelivery = DATEDIFF('Superstore_Sales_Dataset'[Order Date],'Superstore_Sales_
 
 # Regional Analysis
 - **Region Filters**: Analyze sales performance across Central, South, East, and West regions using interactive filters.
+- **Sales and Profit by State**: Map visualization shows California leading with 3.35 lakhs in sales and 49K in profit.
 
 # Conclusion and Recommendations
 - **Identify Peak Sales Periods**: Strategize marketing efforts based on peak sales times.
