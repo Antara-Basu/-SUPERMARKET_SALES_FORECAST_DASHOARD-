@@ -1,49 +1,65 @@
-# -SUPERSTORE_SALES_FORECAST_DASHOARD-
+# Sales Analysis and Forecasting Dashboard
 
-# Objective:
-To contribute to the success of business by utilizing data analysis techniques specifically  focusing on time series analysis to provide valuable insights and accurate sales forecasting.
-# The objective can be detailed
-# 1.) Dashboard Creation: 
-Identify the KPIs, design an
-Intuitive & visually appealing dashboard, add
-interactive
-visualizations and filtering capabilities 
-to allow users to explore the data at various levels of granularity.
-# 2) Data Analysis : 
-Provide valuable insights to business entities regarding the effectiveness of their sales strategies thr
-visualizations & charts.
-# 3) Sales Forecasting:
-Leverate historical data & time series analysis to generate sales forecasts 
-for the next  15 days
-# 4) Actionable for Insights & Recommendations:
-The end goal is to shore valuable insights & actionable information that can drive strategic
-decisions. Support the supermarket's goals and growth efficiency.
+# Project Overview
+This project involves creating a comprehensive Power BI dashboard to analyze sales data, forecast future trends, and support strategic business decisions.
 
-# Import and Data Cleaning
-Searched null values, deleted duplicates, replaced values in all columns, and removed empty columns.
+# Key Components
 
+# 1. Dashboard Creation
+- **Identify KPIs**: Total profit, total sales, total quantity, total orders, and average shipping days.
+- **Design**: Create an intuitive and visually appealing dashboard layout.
+- **Interactivity**: Add interactive visualizations and filtering capabilities for detailed data exploration.
 
-# Project Insights
+# 2. Data Analysis
+- **Insight Generation**: Utilize visualizations and charts to uncover valuable insights into sales strategies.
+- **Trend Analysis**: Analyze temporal trends with stacked area charts to observe sales patterns for 2019 and 2020.
 
-In this comprehensive analysis, we have embarked on a data-driven exploration of sales trends and patterns within the dataset. The utilization of various visualization techniques has empowered us to extract meaningful insights that provide a deeper understanding of the dynamics at play.
+# 3. Sales Forecasting
+- **Time Series Analysis**: Use historical data to generate sales forecasts for the next 15 days.
 
-Through the clustered bar charts, we have identified pivotal categories, sub-categories, and ship modes that significantly contribute to cumulative sales. Notably, 'Office Supplies,' 'Technology,' and 'Furniture' stand out as the top three categories driving sales, while 'Phones,' 'Chairs,' 'Binders,' and 'Storage' emerge as the primary sub-categories influencing sales figures. Additionally, the ship modes 'Standard Class,' 'Second Class,' 'First Class,' and 'Same Class' play a crucial role in shaping sales distribution.
+# 4. Actionable Insights & Recommendations
+- **Strategic Decision Support**: Provide actionable insights to drive strategic business decisions.
+- **Business Growth**: Support the supermarket’s goals and enhance operational efficiency.
 
-Turning our attention to the temporal aspect, the stacked area chart unveils intriguing trends in sales categorized by order date for 2019 and 2020. This visualization reveals that December holds the highest sales, with a noticeable surge in sales between 2019 and 2020, particularly evident in the months of October and March.
+# Data Preparation
+- **Import and Clean Data**: Address missing values, remove duplicates, replace incorrect values, and eliminate empty columns to ensure high-quality data.
 
-Geographical insights come to the fore with a map visualization displaying the distribution of sales across different states. The visualization, utilizing bubbles, highlights California as the leading state in terms of sales, indicating its prominent contribution to the overall sales landscape.
+## Project Insights
 
-Furthermore, the donut charts provide a deeper understanding of the distribution of segments and payment modes. The revelation that Consumer segment sales account for 48%, followed by Corporate at 33%, and Home Office at 19%, highlights the diversity in customer groups and their respective contributions. Meanwhile, the distribution of payment modes underscores the prevalence of Cash on Delivery (COD) at 43%, Online payments at 35%, and Card payments at 22%, emphasizing the significance of COD as the predominant payment method.So cards have less sales . Then to increase 
-see which cards are there if credit cards, give an offer to the company
-of the credit card.
-Also, They give average delivery in 4 days.
+# KPI Highlights
+- **Total Profit**: Overall profitability measurement.
+- **Total Sales**: Total revenue generated from sales.
+- **Total Quantity**: Number of items sold.
+- **Total Orders**: Count of orders placed.
+- **Average Shipping Days**: Average time taken for order shipment.
 
-Lastly, our examination of the top 10 ship states influencing superstore sales underscores the crucial role played by states such as California, New York, Texas, and others. These states collectively represent the driving force behind the majority of sales.
-
-Collectively, these insights not only provide a comprehensive picture of sales trends but also furnish actionable information for strategic decision-making. By leveraging these findings, stakeholders can tailor their strategies, optimize operations, and enhance customer engagement to ensure sustained growth and success in the competitive marketplace.
-
-
-DAX QUERY
+## DAX Query Example
+To calculate the average delivery time, the following DAX query was used:
+DAX
 AvgDelivery = DATEDIFF('Superstore_Sales_Dataset'[Order Date],'Superstore_Sales_Dataset'[Ship Date],Day)
 
-Did Sales Forecasting for the next 14 days, 1st January to  14th January.
+# Temporal Sales Trends
+- **Sales by Order Date (2019-2020)**: Stacked area chart reveals highest sales in December and significant sales increase between October and March.
+- **Monthly Profit YoY (2019-2020)**: Stacked area chart shows peak profit in December 2019, reaching 17K.
+
+# Category and Customer Insights
+- **Quantity by Subcategory**: Clustered column chart shows highest sales in binders with 3.7K units.
+- **Top 10 Customers by Profit**: Stacked column chart highlights the most profitable customers.
+
+# Product Performance
+- **Top 5 Products by Sales**: Clustered bar chart identifies best-selling products.
+- **Bottom 5 Products by Sales**: Clustered bar chart shows least-selling products for further analysis and improvement.
+
+# Regional Analysis
+- **Region Filters**: Analyze sales performance across Central, South, East, and West regions using interactive filters.
+
+# Conclusion and Recommendations
+- **Identify Peak Sales Periods**: Strategize marketing efforts based on peak sales times.
+- **Improve Underperforming Products**: Focus on enhancing sales for products with low performance.
+- **Customer Retention Strategies**: Develop strategies to retain top customers and boost profitability.
+- **Optimize Regional Strategies**: Tailor business strategies to regional performance.
+
+
+This Power BI dashboard is a powerful tool for sales data analysis and trend identification. Users can interact with various visualizations and filters to derive meaningful insights and drive business growth.
+
+Collectively, these insights not only provide a comprehensive picture of sales trends but also furnish actionable information for strategic decision-making. By leveraging these findings, stakeholders can tailor their strategies, optimize operations, and enhance customer engagement to ensure sustained growth and success in the competitive marketplace.
